@@ -1,4 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTPS} !on
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^/?(.*) https://%{www.lengyelbence.hu}/$1 [R,L]
